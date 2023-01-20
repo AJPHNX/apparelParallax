@@ -1,0 +1,148 @@
+body, html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  
+  .parallax {
+    /* The image used */
+    /* background-image: url('https://www.w3schools.com/howto/img_parallax.jpg'); */
+    background-image: url('https://ajphnx.github.io/Resume/assets/ShirtSpread_001_sm_850W.png');
+    /* background-image: url('./assets/Gradient_01.png'); */
+    
+    /* Full height */
+    height: 100%; 
+    
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  .p2{
+      background-image: url('assets/Folded_Graphic_TSpread.jpg');
+      background-repeat: no-repeat;
+  }
+  .p2 img{
+      transform: rotate(90deg);
+      width: 100vw;
+  }
+  .p4{
+      background-attachment: fixed;
+      background-image: url('assets/Bullying_T_WHT_01.png');
+      background-repeat: no-repeat;
+     background-size: 1000px auto;
+      
+  }
+  .p3{
+      background-attachment: fixed;
+      background-image: url('assets/Gridwalker_WL_WHT_01.png');
+      background-repeat: no-repeat;
+     background-size: 1000px auto;
+      /* padding: .5em; */
+  }
+  .p5{
+      background-attachment: fixed;
+      background-image: url('assets/Gridwalker_glitch.gif');
+      background-repeat: no-repeat;
+     background-size: 790px auto;
+     background-color: #fff;
+     /* height: 350px; */
+      /* padding: .5em; */
+      width: 100vw;
+      /* border: 1px solid red; */
+  }
+  #upper1{
+      background-attachment: fixed;
+      background-image: url('assets/Origins_AOP_BLK_HLS_FR.png');
+      background-repeat: no-repeat;
+     /* background-size: 1000px auto; */
+      /* padding: .5em; */
+      border-radius: 50px 0px 50px 0px;
+  }
+  #upper2{
+      background-attachment: fixed;
+      background-image: url('assets/Origins_AOP_BLK_SH_BK.png');
+      background-repeat: no-repeat;
+     /* background-size: 1000px auto; */
+      /* padding: .5em; */
+      border-radius: 50px 0px 50px 0px;
+  }
+  
+  .upperLayer{
+      position: relative;
+      /* box-shadow: 0px 0px 10px 5px #868686; */
+      background-color: blue;
+     width: 100%;
+     height: auto;
+  }
+  .upperLayerS{
+      position: relative;
+      box-shadow: 0px 0px 10px 5px #868686;
+      /* background-color: blue; */
+     width: 100%;
+     height: auto;
+     border-radius: 50px 0px 50px 0px;
+  }
+  .header{
+      position: fixed;
+      display: flex;
+      flex-direction: row;
+      align-items: baseline;
+      justify-content: space-between;
+      flex-wrap: none;
+      top: 0px;
+      left: 0;
+      /* right:0; */
+      height: 100px;
+      width: 100vw;
+      /* padding-top: 1em; */
+      /* padding-right: 1em; */
+      white-space: nowrap;
+      /* margin: auto -.5em; */
+      z-index: 3000;
+      overflow: none;
+     background: rgb(255,255,255);
+        background: linear-gradient(180deg, rgba(255,255,255,1) 30%, rgba(255,255,255,0) 100%);
+    }
+    .header img{
+        width: 40px;
+        height: auto;
+    }
+  .footer{
+      position: fixed;
+      display: flex;
+      flex-direction: row;
+      align-items: baseline;
+      justify-content: space-between;
+      flex-wrap: none;
+      bottom: 0px;
+      left: 0;
+      /* right:0; */
+      height: 50px;
+      width: 100vw;
+      padding-top: 1em;
+      /* padding-right: 1em; */
+      white-space: nowrap;
+      /* margin: auto -.5em; */
+      z-index: 3000;
+      overflow: none;
+     background: rgb(255,255,255);
+        background: linear-gradient(0deg, rgba(255,255,255,1) 44%, rgba(255,255,255,0) 100%);
+    }
+    #tote-box img{
+      width: 300px;
+      height: auto;
+      
+  
+    }
+    #tote-box{
+        position:absolute;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex: 1;
+        width: 100vw;
+        border-radius: 50px 0px 50px 0px;
+        border: 1px solid rgb(57, 49, 49);
+    }
