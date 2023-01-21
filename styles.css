@@ -3,8 +3,13 @@ body, html {
     width: 100%; */
     height: 100vh;
     width: 100vw;
+    font-family: 'Times New Roman', Times, serif;
   }
-  
+  #body{
+    overflow-x: hidden;
+    padding: .5em;
+    margin: 0;
+  }
   
   .parallax {
     /* The image used */
@@ -19,7 +24,9 @@ body, html {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 98%;
+    padding: .5em;
+    margin: 0;
   }
   .p2{
       background-image: url('assets/Folded_Graphic_TSpread.jpg');
@@ -29,26 +36,29 @@ body, html {
       transform: rotate(90deg);
       width: 100vw;
   }
-  .p4{
-      background-attachment: fixed;
-      background-image: url('assets/Bullying_T_WHT_01.png');
-      background-repeat: no-repeat;
-     background-size: 1000px auto;
-      
-  }
   .p3{
       background-attachment: fixed;
       background-image: url('assets/Gridwalker_WL_WHT_01.png');
       background-repeat: no-repeat;
-     background-size: 1000px auto;
+      background-size: 1000px auto;
+      margin-top: -250px;
       /* padding: .5em; */
-  }
+    }
+    .p4{
+        background-attachment: fixed;
+        background-image: url('assets/GrowTheBreath_T_WHT.png');
+        background-repeat: no-repeat;
+       background-size: 1000px auto;
+       clip-path: polygon(50% 100%, 0% 100%, 0% 100%, 100% 0%);
+        
+    }
   .p5{
       background-attachment: fixed;
       background-image: url('assets/Gridwalker_glitch.gif');
       background-repeat: no-repeat;
      background-size: 815px auto;
      background-color: #fff;
+    
      /* height: 350px; */
       /* padding: .5em; */
       width: 100vw;
@@ -61,10 +71,27 @@ body, html {
      /* background-size: 1000px auto; */
       /* padding: .5em; */
       border-radius:0px 0px 0px 0px;
+      
   }
   #upper2{
       background-attachment: fixed;
       background-image: url('assets/Origins_AOP_BLK_SH_BK.png');
+      background-repeat: no-repeat;
+      border-radius: 0px 0px 00px 0px;
+      clip-path: polygon(0% 0, 100% 0%, 0% 100%, 0 80%);
+      
+    }
+  #upper3{
+      background-attachment: fixed;
+      background-image: url('assets/SS-SB_LT_WHT_FR.jpg');
+      background-repeat: no-repeat;
+     /* background-size: 1000px auto; */
+      /* padding: .5em; */
+      border-radius:0px 0px 0px 0px;
+  }
+  #upper4{
+      background-attachment: fixed;
+      background-image: url('assets/SS-SB_LT_WHT_BK.jpg');
       background-repeat: no-repeat;
       border-radius: 0px 0px 00px 0px;
       
