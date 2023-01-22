@@ -6,9 +6,13 @@ body, html {
     font-family: 'Times New Roman', Times, serif;
   }
   #body{
+      position: relative;
     overflow-x: hidden;
-    padding: .5em;
+    /* padding: .5em; */
+    left: 0%;  
+    top: 0%;
     margin: 0;
+    width: 98%;
   }
   
   .parallax {
@@ -25,7 +29,7 @@ body, html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: 98%;
-    padding: .5em;
+    /* padding: .5em; */
     margin: 0;
   }
   .p2{
@@ -58,10 +62,64 @@ body, html {
       background-repeat: no-repeat;
      background-size: 815px auto;
      background-color: #fff;
-    
+    margin-bottom: -40px;
+   
      /* height: 350px; */
       /* padding: .5em; */
       width: 100vw;
+      /* border: 1px solid red; */
+  }
+  .p6{
+      background-attachment: fixed;
+      background-image: url('assets/GLOAUN_star_overlay.gif');
+      background-repeat: no-repeat;
+     background-size: 60vw auto;
+     background-color: #fff;
+     clip-path: polygon(0% 0, 100% 0%, 0% 100%, 0 90%);
+    /* z-index: 1000; */
+    margin-bottom: -250px;
+    box-shadow: inset -10px 0px 15px 10px rgba(0, 0, 0, 0.322);
+
+    /* height: 350px; */
+      /* padding: .5em; */
+      /* width: 100vw; */
+      /* border: 1px solid red; */
+  }
+  .p7{
+    display: flex;
+      background-attachment: fixed;
+      background-image: url('assets/Sage_WL_WHT_01.png');
+      background-repeat: no-repeat;
+     background-size: 750px auto;
+     background-position: center;
+
+     background-position: bottom 0%;
+     background-color: #fff;
+     border-bottom: 1px solid transparent;
+     border-right: 50px solid transparent;
+     /* box-shadow: 0px 0px 15px 10px rgba(0, 0, 0, 0.322); */
+     /* height: 350px; */
+     /* padding: .5em; */
+     width: 100%;
+     white-space: nowrap;
+     /* border: 1px solid red; */
+    }
+    .p8{
+        display: flex;
+        background-attachment: fixed;
+        background-image: url('assets/Sage_WL_WHT_03.png');
+        background-repeat: no-repeat;
+        background-size: 750px auto;
+        background-position: center;
+        background-position: bottom 0%;
+     background-color: #fff;
+     white-space: nowrap;
+     /* border-bottom: 1px solid transparent;
+    border-right: 50px solid transparent; */
+    /* box-shadow: 0px 0px 15px 10px rgba(0, 0, 0, 0.322); */
+     /* height: 350px; */
+      /* padding: .5em; */
+      width: 100%;
       /* border: 1px solid red; */
   }
   #upper1{
@@ -82,16 +140,25 @@ body, html {
       
     }
   #upper3{
+     height:500px;
+     background-color:#fff;
+     font-size:36px;
       background-attachment: fixed;
       background-image: url('assets/SS-SB_LT_WHT_FR.jpg');
       background-repeat: no-repeat;
-     /* background-size: 1000px auto; */
+      background-position: right 10%;
+      border-right: 50px solid transparent;
+      /* background-size: 1000px auto; */
       /* padding: .5em; */
       border-radius:0px 0px 0px 0px;
-  }
-  #upper4{
-      background-attachment: fixed;
-      background-image: url('assets/SS-SB_LT_WHT_BK.jpg');
+    }
+    #upper4{
+        height:600px;
+        background-color:#fff;
+        font-size:36px;
+        background-attachment: fixed;
+        background-image: url('assets/SS-SB_LT_WHT_BK.jpg');
+        background-position: right 10%;
       background-repeat: no-repeat;
       border-radius: 0px 0px 00px 0px;
       
@@ -127,10 +194,11 @@ body, html {
   }
   .upperLayerTotes{
       position: relative;
-      box-shadow: 0px 0px 10px 5px #868686;
+      box-shadow: 10px 0px 10px 5px #86868662;
       /* background-color: blue; */
+      height:400px;
      width: 100%;
-     height: auto;
+    
      border-radius: 50px 0px 50px 0px;
      padding: .5em;
      text-align: center;
@@ -141,6 +209,16 @@ body, html {
     top: 65%;
     font-size: 48pt;
     text-shadow: #fff;
+  }
+ span[id *="end-copy-"]{
+    position: relative;
+    /* display: flex; */
+  
+    right: 0px;
+    top: 65%;
+    font-size: 48pt;
+    text-shadow: #fff;
+
   }
   #totes-header{
       font-size: 48pt;
@@ -189,7 +267,7 @@ body, html {
         flex-direction: row;
         justify-content: center;
         flex: 1;
-        width: 100vw;
+        width: 90vw;
         border-radius: 50px 0px 50px 0px;
         /* border: 1px solid rgb(57, 49, 49); */
     }
