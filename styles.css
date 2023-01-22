@@ -62,7 +62,7 @@ body, html {
       background-repeat: no-repeat;
      background-size: 815px auto;
      background-color: #fff;
-    margin-bottom: -40px;
+     margin-bottom: -40px;
    
      /* height: 350px; */
       /* padding: .5em; */
@@ -73,12 +73,14 @@ body, html {
       background-attachment: fixed;
       background-image: url('assets/GLOAUN_star_overlay.gif');
       background-repeat: no-repeat;
-     background-size: 60vw auto;
+     background-size: 90vw auto;
      background-color: #fff;
-     clip-path: polygon(0% 0, 100% 0%, 0% 100%, 0 90%);
+     /* clip-path: polygon(0% 0, 100% 0%, 0% 100%, 0 90%); */
+     -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 50% 100%, 0 50%);
+clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 50% 100%, 0 50%);
     /* z-index: 1000; */
     margin-bottom: -250px;
-    box-shadow: inset -10px 0px 15px 10px rgba(0, 0, 0, 0.322);
+    box-shadow: inset -10px 0px 15px 4px rgba(0, 0, 0, 0.322), 0px 0px 15px 4px rgba(0, 0, 0, 0.322);
 
     /* height: 350px; */
       /* padding: .5em; */
@@ -93,7 +95,7 @@ body, html {
      background-size: 750px auto;
      background-position: center;
 
-     background-position: bottom 0%;
+     background-position: bottom 0% left  48%;
      background-color: #fff;
      border-bottom: 1px solid transparent;
      border-right: 50px solid transparent;
@@ -111,7 +113,7 @@ body, html {
         background-repeat: no-repeat;
         background-size: 750px auto;
         background-position: center;
-        background-position: bottom 0%;
+        background-position: bottom 0%  left 48%;
      background-color: #fff;
      white-space: nowrap;
      /* border-bottom: 1px solid transparent;
@@ -136,8 +138,9 @@ body, html {
       background-image: url('assets/Origins_AOP_BLK_SH_BK.png');
       background-repeat: no-repeat;
       border-radius: 0px 0px 00px 0px;
-      clip-path: polygon(0% 0, 100% 0%, 0% 100%, 0 80%);
-      
+      /* clip-path: polygon(0% 0, 100% 0%, 0% 100%, 0 80%); */
+      -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 50% 100%, 0 50%);
+clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 50% 100%, 0 50%);
     }
   #upper3{
      height:500px;
